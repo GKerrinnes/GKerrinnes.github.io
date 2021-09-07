@@ -170,18 +170,12 @@
       <div class="row">
         <div class="col-sm-6 col-md-4 col-lg-3">
           <div class="box">
-        <div class="container" 
-             style="text-align: center;
-                    margin-top: 5em;">
-            <!-- Image to be enlarged and onclick() 
-            function call
-      Passing the reference to this img
-             as a parameter    -->
-            <img src="images/p1.png"
-                 onclick="enlargeImg(this)" />
-        </div>
   
-        <!-- script to set display property -->
+  
+            <div class="img-box">
+              <img src="images/p1.png" onclick="enlargeImg(this) alt="">
+            </div>
+<!-- script to set display property -->
         <script>
             // Function to increase image size
             function enlargeImg(img) {
@@ -190,9 +184,6 @@
                   "transform 0.25s ease";
             }
         </script>
-            <div class="img-box">
-              <img src="images/p1.png" alt="">
-            </div>
             <div class="detail-box">
               <a href="">
                 Badezimmer
